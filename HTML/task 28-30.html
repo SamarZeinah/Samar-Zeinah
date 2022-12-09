@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BOOK STORE</title>
+        <meta charset="UTF_8"/>
+        <meta name="description"content="this is my Book Store"/>
+    </head>
+    <body>
+        <form method="get">
+        <label >User name</label>
+        <br>
+        <input type="text"
+               name="User"
+               placeholder="5 letters to 20"
+               autofocus
+               required
+               minlength="5"
+               maxlength="20">
+               <hr>
+        <label>Email</label>
+        <br>
+        <input type="Email" 
+              readonly
+              value="o@o.com">
+              <hr>
+        
+        <label hidden>Token</label>
+        <input type="tel" hidden 
+        value="b92f1fc2fce391ad7af633723afd3055" 
+        name="token"> 
+        <!-- <br>
+        <input type="reset" value="Empty">
+        <input type="submit" value="Send"> -->
+        <!-- <hr> -->
+           
+        <label>skills</label>
+        <br>
+            <input type="checkbox" name="skills" value="Problem Solving" id="box-1"checked>
+             <lable  for="box-1">Problem Solving</lable> 
+           <br>
+            <input type="checkbox" name="os" value="Logical Thinking" id="sam1">
+            <lable for="sam1">Logical Thinking</lable>
+            <br>
+            <input type="checkbox" name="os" value="Advanced Search" id="sam2">
+            <lable for="sam2">Advanced Search</lable>
+            <br>
+            <input  id="sam3" type="checkbox" name="os" value="Analysis" > 
+            <lable for="sam3">Analysis</lable>
+            <br>
+            <input type="checkbox" name="os" value="Planning" id="sam4">
+            <lable for="sam4">Planning</lable>
+            <hr>
+            <label>Jobs</label>
+            <br>
+            <input type="radio" name="os" value="Front-End Developer" id="samm" checked>
+            <lable for="samm">Front-End Developer</lable>
+            <br>
+            <input type="radio" name="os" value="Back-End Developer" id="sam11">
+            <lable for="sam11">Back-End Developer</lable>
+            <br>
+            <input type="radio" name="os" value="Business Analyst" id="sam22">
+            <lable for="sam22">Business Analyst</lable>
+            <br>
+            <input  id="sam33" type="radio" name="os" value="Project Manager" > 
+            <lable for="sam33">Project Manager</lable>
+            <br>
+            <input type="radio" name="os" value="Scrum Master" id="sam44">
+            <lable for="sam44">Scrum Master</lable>
+
+        
+        <hr>
+        <br>
+        <lable for="sam">Choose Book</lable>
+         <select name="Book" id="sam">
+            <optgroup label="PHP">
+        <option value="1">V5.0</option>
+        <option value="2">V7.0</option>
+        <option value="3">V8.0</option>
+        </optgroup>
+            <optgroup label="Python">
+        <option value="1">V2.0</option>
+        <option value="2">V3.0</option>
+        <option value="3">V3.9</option>
+        </optgroup>
+    </select>
+    <br>
+    <textarea name="bref"
+              cols="50"
+              row="100"
+              placeholder="Write Here Why You Want To Learn Programming"
+              ></textarea>
+              <br>
+              <hr>
+              <input type="reset" value="Empty">
+              <input type="submit" value="Send">
+    </body>
+     </form>
+    </html>
